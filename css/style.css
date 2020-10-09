@@ -155,6 +155,7 @@ header p {
   border: 10px solid black;
   padding: 30px;
   /*Your code here:*/
+  margin: auto;
 }
 
 @media all and (min-width: 800px) {
