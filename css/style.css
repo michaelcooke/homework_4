@@ -62,7 +62,7 @@ nav a:hover {
 /*Your Code Here*/
 /*Write selector/rule property to style all elements when in focus*/
 *:focus {
-  border: 2px solid;
+  border: 2px solid #000;
 }
 
 nav {
