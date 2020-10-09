@@ -156,6 +156,7 @@ header p {
   padding: 30px;
   /*Your code here:*/
   margin: auto;
+  align-self: center;
 }
 
 @media all and (min-width: 800px) {
