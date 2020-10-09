@@ -162,10 +162,13 @@ header p {
   nav {
     padding: 30px 0px;
     /*Your code here:*/
+    text-align: right;
   }
 
   .container {
     /*Your code here:*/
+    grid-template-columns: 50px auto 500px auto 50px;
+    grid-template-rows: 400px 400px 400px 400px 400px;
   }
 
   .about,
@@ -173,6 +176,7 @@ header p {
   .method-image,
   .contact-image {
     /*Your code here:*/
+    grid-column: 3 / span 2;
   }
 
   .about-image,
@@ -180,6 +184,7 @@ header p {
   .method,
   .contact {
     /*Your code here:*/
+    grid-column: 2 / span 2;
   }
 }
 
