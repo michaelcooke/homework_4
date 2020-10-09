@@ -61,6 +61,10 @@ nav a:hover {
     margin: 0 auto auto auto;
 }
 
+*:focus {
+    border: 2px solid
+}
+
 /*Your Code Here*/
 /*Write selector/rule property to style all elements when in focus*/
 
